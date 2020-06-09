@@ -2,5 +2,11 @@ name "mathgl"
 description "Binding / Wrapper for mathgl chart library"
 copyright "Copyright © 2015 -2019 Laeeth Isharc"
 authors "Laeeth Isharc"
-libs "mgl"
 license "MIT"
+
+configuration "default" {
+    libs "mgl"
+}
+
+configuration "no-lib" {
+}
