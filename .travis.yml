@@ -10,6 +10,7 @@ addons:
     - checkinstall
     - zlib1g-dev
     - mesa-common-dev
+    - libglx-mesa0
 
 before_install:
   - ./install_libmathgl.sh
