@@ -9,6 +9,7 @@ addons:
     - build-essential
     - checkinstall
     - zlib1g-dev
+    - mesa-common-dev
 
 before_install:
   - ./install_libmathgl.sh
@@ -18,7 +19,7 @@ install:
 
 matrix:
   include:
-    - d: dmd-2.092.1
+    - d: dmd-2.092.0
     - d: dmd-2.091.1
     - d: dmd-2.090.0
     - d: dmd-2.089.1
