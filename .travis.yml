@@ -5,12 +5,10 @@ addons:
   apt:
     packages:
     - cmake
-    - libssl-dev
     - build-essential
-    - checkinstall
     - zlib1g-dev
-    - mesa-common-dev
-    - libglx-mesa0
+    - libpng-dev
+    - libgl-dev
 
 before_install:
   - ./install_libmathgl.sh
